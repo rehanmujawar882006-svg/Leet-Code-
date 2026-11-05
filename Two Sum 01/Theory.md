@@ -14,7 +14,7 @@ Output: [0,1]
 ```
 **Explanation:**
 
-The sum of nums[0] and nums[1] is 2 + 7 = 9, which equals the target. Therefore, the indices [0, 1] are returned.
+```The sum of nums[0] and nums[1] is 2 + 7 = 9, which equals the target. Therefore, the indices [0, 1] are returned.```
 
 **Example 2:**
 
