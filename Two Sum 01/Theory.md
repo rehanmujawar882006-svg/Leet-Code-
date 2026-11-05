@@ -23,28 +23,28 @@ Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
 
-Explanation:
+**Explanation:**
 
-The sum of nums[1] and nums[2] is 2 + 4 = 6, which equals the target. Therefore, the indices [1, 2] are returned.
+```The sum of nums[1] and nums[2] is 2 + 4 = 6, which equals the target. Therefore, the indices [1, 2] are returned.```
 
-Example 3:
-
-Input: nums = [3,3], target = 6
-
+**Example 3:**
+```
+Input: nums = [3,3], target = 6 
 Output: [0,1]
+```
 
-Explanation:
+**Explanation:**
 
-The sum of nums[0] and nums[1] is 3 + 3 = 6, which equals the target. Therefore, the indices [0, 1] are returned.
-
+```The sum of nums[0] and nums[1] is 3 + 3 = 6, which equals the target. Therefore, the indices [0, 1] are returned.
+```
  
 
-Constraints:
+**Constraints:**
 
-2 <= nums.length <= 104
+`2 <= nums.length <= 104
 -109 <= nums[i] <= 109
 -109 <= target <= 109
-Only one valid answer exists.
+Only one valid answer exists.`
  
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
