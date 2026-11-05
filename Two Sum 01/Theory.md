@@ -7,21 +7,21 @@ You can return the answer in any order.
 
  
 
-Example 1:
-
+**Example 1:**
+```
 Input: nums = [2,7,11,15], target = 9
-
 Output: [0,1]
-
-Explanation:
+```
+**Explanation:**
 
 The sum of nums[0] and nums[1] is 2 + 7 = 9, which equals the target. Therefore, the indices [0, 1] are returned.
 
-Example 2:
+**Example 2:**
 
+```
 Input: nums = [3,2,4], target = 6
-
 Output: [1,2]
+```
 
 Explanation:
 
