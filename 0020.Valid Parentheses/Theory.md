@@ -29,14 +29,19 @@ Output: false
 ```
 
 **Example 4:**
-```Input: s = "([])"
-Output: true```
+
+```
+Input: s = "([])"
+Output: true
+```
 
 **Example 5:**
+
 ```Input: s = "([)]"
-Output: false```
+Output: false
+```
 
  
 **Constraints:**
-``1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.``
+`1 <= s.length <= 104
+s consists of parentheses only '()[]{}'.`
