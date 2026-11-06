@@ -7,11 +7,11 @@ class Solution(object):
         stack = []
         pairs = {')': '(', '}': '{', ']': '['}
 
-        for ch in s:
-            if ch in pairs:
-                if not stack or stack.pop() != pairs[ch]:
+        for choice in s:
+            if choice in pairs:
+                if not stack or stack.pop() != pairs[choice]:
                     return False
             else:
-                stack.append(ch)
+                stack.append(choice)
 
         return len(stack) == 0
